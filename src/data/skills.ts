@@ -12,10 +12,9 @@ export const skills: Skill[] = [
   { id: 8, name: "SASS/SCSS", icon: "sass", category: "frontend", level: 4 },
   
   // Backend
-  { id: 9, name: "Node.js", icon: "node", category: "backend", level: 4 },
+  { id: 9, name: "Node.js", icon: "node", category: "backend", level: 2 },
   { id: 11, name: "Python", icon: "python", category: "backend", level: 3 },
   { id: 12, name: "PHP", icon: "php", category: "backend", level: 3 },
-  { id: 13, name: "GraphQL", icon: "graphql", category: "backend", level: 3 },
   
   // Database
   { id: 16, name: "MySQL", icon: "mysql", category: "database", level: 3 },

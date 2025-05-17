@@ -41,14 +41,14 @@ const Header: React.FC<HeaderProps> = ({ activeSection }) => {
     <header 
       className={`fixed w-full z-50 transition-all duration-300 ${
         isScrolled 
-          ? 'bg-white bg-opacity-90 backdrop-blur-sm shadow-md py-3' 
-          : 'bg-transparent py-5'
+          ? 'bg-gray-200 bg-opacity-90 backdrop-blur-sm shadow-md py-3' 
+          : 'bg-transparent py-5 '
       }`}
     >
       <div className="container mx-auto px-4 md:px-6 flex justify-between items-center">
         <a 
           href="#inicio" 
-          className="text-xl font-bold text-indigo-700"
+          className="text-xl font-bold text-indigo-700" 
           onClick={(e) => {
             e.preventDefault();
             scrollToSection('inicio');
