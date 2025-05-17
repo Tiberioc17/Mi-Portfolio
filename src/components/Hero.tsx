@@ -11,13 +11,13 @@ const Hero: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-12 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-6 leading-tight animate-fade-in">
-              <span className="text-indigo-700">Hola, soy</span> <br />
+              <span className=" text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 to-purple-600">Hola, soy</span> <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 to-purple-600">
                 Tiberio
               </span>
             </h1>
             
-            <h2 className="text-xl md:text-2xl text-gray-600 mb-8 animate-fade-in-delay">
+            <h2 className="text-xl md:text-2xl text-indigo-800 mb-8 animate-fade-in-delay">
               Desarrollador Frontend Junior
             </h2>
             
@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
               Me apasiona la programación y tengo un gran interés por la creación de soluciones digitales que generen un impacto positivo. Me especializo en el desarrollo Front-End, donde disfruto convertir ideas en experiencias funcionales y atractivas para el usuario.
             </p>
             
-            <div className="flex flex-wrap gap-4 mb-10 animate-fade-in-delay-3">
+            <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-10 animate-fade-in-delay-3">
               <a 
                 href="#contacto" 
                 className="px-6 py-3 bg-indigo-700 text-white rounded-lg font-medium transition-all hover:bg-indigo-600 hover:shadow-lg"
@@ -51,14 +51,13 @@ const Hero: React.FC = () => {
           
           <div className="md:w-1/2 flex justify-center animate-fade-in-delay-2">
             <div className="relative">
-              <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full overflow-hidden">
+              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden">
                 <img 
-                  src="https://images.pexels.com/photos/3861959/pexels-photo-3861959.jpeg" 
-                  alt="Tu Nombre" 
+                  src="./public/photo2.jpeg" 
+                  alt="portada" 
                   className="w-full h-full object-cover mix-blend-overlay opacity-75"
                 />
               </div>
-              <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full opacity-20 blur-2xl -z-10"></div>
             </div>
           </div>
         </div>
