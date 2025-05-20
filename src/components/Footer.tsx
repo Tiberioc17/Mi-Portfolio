@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
             </div>
             
             <a 
-              href="/public/CV_Tiberio_Carvajal.pdf" 
+              href="/public/CV_Tiberio_Carvajal_G.pdf" 
               target="_blank"
               rel="cv tiberio carvajal"
               className="px-8 py-3 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-sm transition-all duration-300 hover:scale-110"
