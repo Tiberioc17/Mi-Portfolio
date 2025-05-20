@@ -20,7 +20,7 @@ export const skills: Skill[] = [
   { id: 16, name: "MySQL", icon: "mysql", category: "database", level: 3 },
   
   // Tools
-  { id: 18, name: "Git", icon: "git", category: "tools", level: 5 },
+  { id: 18, name: "Git", icon: "git", category: "tools", level: 4 },
   { id: 21, name: "Figma", icon: "figma", category: "tools", level: 2 },
-  { id: 22, name: "VS Code", icon: "vscode", category: "tools", level: 5 },
+  { id: 22, name: "VS Code", icon: "vscode", category: "tools", level: 4 },
 ];
