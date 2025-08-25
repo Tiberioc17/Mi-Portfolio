@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
           </p>
           
           <p className="text-gray-400 text-sm flex items-center">
-            By por Tiberio Carvajal
+            By Tiberio Carvajal
           </p>
         </div>
       </div>

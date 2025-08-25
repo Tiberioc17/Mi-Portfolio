@@ -50,16 +50,14 @@ const Hero: React.FC = () => {
           </div>
           
           <div className="md:w-1/2 flex justify-center animate-fade-in-delay-2">
-            <div className="relative">
-              <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden">
-                <img 
-                  src="./public/photo2.jpeg" 
-                  alt="portada" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-          </div>
+  <div className="relative w-40 h-40 sm:w-56 sm:h-56 md:w-80 md:h-80 rounded-full overflow-hidden">
+    <img 
+      src="./public/photo2.jpeg" 
+      alt="portada" 
+      className="w-full h-full object-cover"
+    />
+  </div>
+</div>
         </div>
 
         <div className="flex justify-center mt-12 md:mt-20 animate-bounce">
