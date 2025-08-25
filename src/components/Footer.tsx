@@ -5,14 +5,14 @@ const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-gray-900 text-white py-5">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex flex-col md:flex-row justify-between items-center mb-8">
-          <div className="mb-6 md:mb-0">
-            <a href="#inicio" className="text-2xl font-bold text-white">
+        <div className="flex flex-col md:flex-row justify-between mb-5">
+          <div className="mb- md:mb-0">
+            <a href="#inicio" className="text-2xl font-bold text-white ">
               Mi Portafolio
             </a>
-            <p className="text-gray-400 mt-2 max-w-xs">
+            <p className="text-gray-400 mt-2 max-w-xs mb-2 ">
               Gracias por visitar mi blog. tu visita es muy valiosa para mí 🔥
             </p>
           </div>
@@ -41,22 +41,22 @@ const Footer: React.FC = () => {
               href="/public/CV_Tiberio_Carvajal_G.pdf" 
               target="_blank"
               rel="cv tiberio carvajal"
-              className="px-8 py-3 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-sm transition-all duration-300 hover:scale-110"
+              className="px-8 py-3 bg-indigo-700 hover:bg-indigo-600 rounded-lg text-sm transition-all duration-300 hover:scale-110 mb-2"
               download
             >
               Descargar CV
             </a>
+            <p>Hecho por Tiberio Carvajal </p>
           </div>
         </div>
         
-        <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm mb-2 md:mb-0">
+        <div className="border-t border-gray-800 pt-2 flex flex-col md:flex-row justify-center items-center">
+          
+          <p className="text-gray-400 text-sm r md:mb-0">
             © {currentYear} Todos los derechos reservados
           </p>
           
-          <p className="text-gray-400 text-sm flex items-center">
-            By por Tiberio Carvajal
-          </p>
+        
         </div>
       </div>
     </footer>
