@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Heart,   } from 'lucide-react';
+import { Github, Linkedin,    } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
               Mi Portafolio
             </a>
             <p className="text-gray-400 mt-2 max-w-xs">
-              Gracias por visitar mi blog. Tu visita es muy valiosa para mí 🔥
+              Gracias por visitar mi blog. tu visita es muy valiosa para mí 🔥
             </p>
           </div>
           
@@ -51,11 +51,11 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-2 md:mb-0">
-            © {currentYear} Tiberio. Todos los derechos reservados
+            © {currentYear} Todos los derechos reservados
           </p>
           
           <p className="text-gray-400 text-sm flex items-center">
-            Hecho con mucho <Heart size={14} className="mx-1 text-red-500" /> 
+            By por Tiberio Carvajal
           </p>
         </div>
       </div>

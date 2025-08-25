@@ -14,7 +14,7 @@ export const skills: Skill[] = [
   // Backend
   { id: 9, name: "Node.js", icon: "node", category: "backend", level: 2 },
   { id: 11, name: "Python", icon: "python", category: "backend", level: 3 },
-  { id: 12, name: "PHP", icon: "php", category: "backend", level: 3 },
+  { id: 12, name: "PHP", icon: "php", category: "backend", level: 2 },
   
   // Database
   { id: 16, name: "MySQL", icon: "mysql", category: "database", level: 3 },

@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
                 <img 
                   src="./public/photo2.jpeg" 
                   alt="portada" 
-                  className="w-full h-full object-cover mix-blend-overlay opacity-75"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>

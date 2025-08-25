@@ -43,7 +43,7 @@ const Skills: React.FC = () => {
                 className={`px-4 py-2 rounded-lg text-sm transition-colors ${
                   selectedCategory === category.id 
                     ? 'bg-indigo-700 text-white' 
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                    : 'bg-gray-200 text-gray-900 hover:bg-gray-200'
                 }`}
               >
                 {category.label}
@@ -56,12 +56,12 @@ const Skills: React.FC = () => {
           {filteredSkills.map((skill) => (
             <div 
               key={skill.id} 
-              className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm hover:shadow-md transition-shadow flex flex-col items-center"
+              className="bg-white rounded-lg p-4 border border-gray-200 shadow-sm hover:shadow-md transition-shadow flex flex-col items-center"
             >
               {getSkillIcon(skill.icon)}
               <h3 className="mt-3 text-gray-800 font-medium text-center">{skill.name}</h3>
               <div className="mt-2 w-full">
-                <div className="w-full h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                <div className="w-full h-1.5 bg-gray-300 rounded-full overflow-hidden">
                   <div 
                     className="h-full bg-indigo-600 rounded-full"
                     style={{ width: `${(skill.level / 5) * 100}%` }}
