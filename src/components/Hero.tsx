@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden">
                 <img 
-                  src="./images/profile.png" 
+                  src="/images/profile.png" 
                   alt="portada" 
                   className="w-full h-full object-cover"
                 />
