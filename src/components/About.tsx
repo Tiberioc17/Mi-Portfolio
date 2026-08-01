@@ -5,6 +5,23 @@ const About: React.FC = () => {
   const experiences = [
     {
       id: 1,
+      company: "Freelance",
+      position: "Full Stack Developer",
+      period: "2025- Actualidad",
+      description: [
+        "*Desarrollo de aplicaciones web modernas utilizando Java, Spring Boot, React y TypeScript.", 
+        " *Diseño e implementación de Apis Restful para la integración de servicios de consumo desde el frontend.",
+        " *Construcción de arquitecturas escalables aplicando prácticas de desarrollo y clean code.",
+        "*Desarrollo de interfaces responsivas y accesibles enfocadas en experiencia de usuario (UI/UX).",
+        "*Optimización de rendimiento web y mejora de métricas core web vitals.",
+        "*Integración de base de datos relacionales y manejo de consultas SQL.",
+        "*Implementación de autenticación y gestion básica de seguridad en aplicaciones web.",
+        "* Diseño de prototipos y sistemas visuales en Figma.",
+        "* Automatización de despliegues y entrega continua mediante GitHub, Vercel y entornos CI/CD."
+      ]
+    },
+    {
+      id: 2,
       company: "Omni.pro Colombia SAS",
       position: "Practicante de Desarrollo Frontend",
       period: "Noviembre 2024 - Mayo 2025",
@@ -113,7 +130,9 @@ const About: React.FC = () => {
             
             <div className="space-y-4 text-gray-600">
               <p>
-                Desarrollador Junior con pasión por crear aplicaciones modernas y funcionales. Comencé de forma autodidacta, desarrollando proyectos junto a amigos, y posteriormente inicié mis estudios en programación de aplicaciones móviles logrando así trabajar en una multinacional como aprendíz de desarrollo frontend. He trabajado en proyectos que abarcan desde sitios web hasta aplicaciones móviles, utilizando tecnologías frontend como React y Vue.js, además con conocimientos en backend. Me motiva construir experiencias digitales accesibles y me mantengo en constante actualización con las últimas tendencias del sector.
+                Desarrollador de software con experiencia en el desarrollo de aplicaciones web y móviles, especializado en la construcción de interfaces modernas, intuitivas y de alto rendimiento. He participado en proyectos utilizando tecnologías como React, Vue.js, JavaScript, TypeScript y Node.js, colaborando en equipos de desarrollo bajo metodologías ágiles y contribuyendo a la creación de soluciones escalables y centradas en el usuario.
+                Mi experiencia abarca desde el diseño e implementación de interfaces responsivas hasta la integración de APIs, autenticación de usuarios, validación de datos y aplicación de buenas prácticas de desarrollo seguro. Me caracterizo por mi capacidad de aprendizaje continuo, pensamiento analítico y compromiso con la calidad del código, manteniéndome actualizado en las tecnologías y tendencias que impulsan la evolución del desarrollo de software.
+
               </p>
               
             </div>
@@ -126,12 +145,12 @@ const About: React.FC = () => {
   </div>
   <div className="flex flex-col items-center p-4 bg-gray-50 rounded-lg transition-all duration-300 hover:scale-110  hover:shadow-2xl hover:shadow-indigo-400/60 hover:bg-indigo-50 ">
     <Code size={24} className="text-indigo-700 mb-2" />
-    <span className="text-lg font-bold text-gray-800">3+</span>
+    <span className="text-lg font-bold text-gray-800">10+</span>
     <span className="text-sm text-gray-500">Proyectos</span>
   </div>
   <div className="flex flex-col items-center p-4 bg-gray-50 rounded-lg transition-all duration-300 hover:scale-110  hover:shadow-2xl hover:shadow-indigo-400/60 hover:bg-indigo-50 ">
     <Clock size={24} className="text-indigo-700 mb-2" />
-    <span className="text-lg font-bold text-gray-800">1+</span>
+    <span className="text-lg font-bold text-gray-800">3+</span>
     <span className="text-sm text-gray-500">Año de exp.</span>
   </div>
 </div>
@@ -154,7 +173,13 @@ const About: React.FC = () => {
                       <h4 className="text-lg font-bold text-gray-800">{exp.position}</h4>
                       <p className="text-indigo-600 font-medium">{exp.company}</p>
                       <p className="text-sm text-gray-500 mb-2">{exp.period}</p>
-                      <p className="text-gray-600 text-sm">{exp.description}</p>
+                      <ul className="list-disc list-inside space-y-1">
+                        {exp.description.map((desc, idx) => (
+                          <li key={idx} className="text-gray-600 text-sm">
+                            {desc.replace(/^\s*\*+\s*/, '').trim()}
+                          </li>
+                        ))}
+                      </ul>
                     </div>
                   </div>
                 ))}

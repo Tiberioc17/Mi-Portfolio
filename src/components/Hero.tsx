@@ -18,11 +18,12 @@ const Hero: React.FC = () => {
             </h1>
             
             <h2 className="text-xl md:text-2xl text-indigo-800 mb-8 animate-fade-in-delay">
-              Desarrollador Frontend Junior
+              Desarrollador De Software
             </h2>
             
             <p className="text-gray-600 mb-10 max-w-lg animate-fade-in-delay-2">
-              Me apasiona la programación y tengo un gran interés por la creación de soluciones digitales que generen un impacto positivo. Me especializo en el desarrollo Front-End, donde disfruto convertir ideas en experiencias funcionales y atractivas para el usuario.
+              Como desarrollador de software, me enfoco en crear soluciones digitales modernas, funcionales y escalables que respondan a necesidades reales. Disfruto transformar ideas en aplicaciones intuitivas, priorizando la calidad del código, la experiencia del usuario y la mejora continua en cada proyecto.
+
             </p>
             
             <div className="flex flex-wrap justify-center md:justify-start gap-4 mb-10 animate-fade-in-delay-3">
@@ -53,7 +54,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden">
                 <img 
-                  src="./public/photo2.png" 
+                  src="./public/profile.PNG" 
                   alt="portada" 
                   className="w-full h-full object-cover"
                 />

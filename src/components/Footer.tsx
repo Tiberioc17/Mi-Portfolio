@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
             >
               Descargar CV
             </a>
-            <p>Hecho por Tiberio Carvajal </p>
+            <p>Hecho con mucho amor ❤️</p>
           </div>
         </div>
         
