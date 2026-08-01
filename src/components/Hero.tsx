@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
               </a>
               
               <a 
-                href="/public/CV_Tiberio_Carvajal_G.pdf" 
+                href="/CV_Tiberio_Carvajal_G.pdf" 
                 className="px-6 py-3 bg-white text-indigo-700 border border-indigo-700 rounded-lg font-medium transition-all hover:bg-indigo-100 flex items-center gap-2"
                 target="_blank"
                 rel="cv tiberio carvajal"
@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden">
                 <img 
-                  src="/images/profile.png" 
+                  src="/images/profile.png"
                   alt="portada" 
                   className="w-full h-full object-cover"
                 />
