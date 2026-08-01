@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: "The Collective",
     description: "Plataforma de comercio electrónico con carrito de compras, pagos y panel de administración. Desarrollada con React, Node.js y MongoDB.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-    image: "./public/commerce_logo.jpeg",
+    image: "/images/commerce_logo.jpeg",
     github: "https://github.com/Tiberioc17/Ecommerce-THE-COLLECTIVE..git",
     liveUrl: "https://ecommerce-the-collective.vercel.app",
     featured: true
@@ -16,7 +16,7 @@ export const projects: Project[] = [
     title: "Aura & Aperture", 
     description: "Sitio web responsivo para un fotógrafo profesional con galerías, sistema de filtros y contacto. Diseño minimalista enfocado en resaltar las imágenes.",
     technologies: ["HTML", "SCSS", "JavaScript", "Webpack"],
-    image: "./public/aura_aperture_logo.png",
+    image: "/images/aura_aperture_logo.png",
     github: "https://github.com/Tiberioc17/Aura-Aperture-.git",
     liveUrl: "https://aura-aperture.vercel.app/",
     featured: true
@@ -26,7 +26,7 @@ export const projects: Project[] = [
     title: "Demo", 
     description: "Sitio web responsivo para un fotógrafo profesional con galerías, sistema de filtros y contacto. Diseño minimalista enfocado en resaltar las imágenes.",
     technologies: ["HTML", "SCSS", "JavaScript", "Webpack"],
-    image: "./public/aura_aperture_logo.png",
+    image: "/images/aura_aperture_logo.png",
     github: "https://github.com/Tiberioc17/Aura-Aperture-.git",
     liveUrl: "https://aura-aperture.vercel.app/",
     featured: true
@@ -36,7 +36,7 @@ export const projects: Project[] = [
     title: "Demo", 
     description: "Sitio web responsivo para un fotógrafo profesional con galerías, sistema de filtros y contacto. Diseño minimalista enfocado en resaltar las imágenes.",
     technologies: ["HTML", "SCSS", "JavaScript", "Webpack"],
-    image: "./public/aura_aperture_logo.png",
+    image: "/images/aura_aperture_logo.png",
     github: "https://github.com/Tiberioc17/Aura-Aperture-.git",
     liveUrl: "https://aura-aperture.vercel.app/",
     featured: true
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     title: "Demo", 
     description: "Sitio web responsivo para un fotógrafo profesional con galerías, sistema de filtros y contacto. Diseño minimalista enfocado en resaltar las imágenes.",
     technologies: ["HTML", "SCSS", "JavaScript", "Webpack"],
-    image: "./public/aura_aperture_logo.png",
+    image: "/images/aura_aperture_logo.png",
     github: "https://github.com/Tiberioc17/Aura-Aperture-.git",
     liveUrl: "https://aura-aperture.vercel.app/",
     featured: true
@@ -54,7 +54,7 @@ export const projects: Project[] = [
     title: "Demo", 
     description: "Sitio web responsivo para un fotógrafo profesional con galerías, sistema de filtros y contacto. Diseño minimalista enfocado en resaltar las imágenes.",
     technologies: ["HTML", "SCSS", "JavaScript", "Webpack"],
-    image: "./public/aura_aperture_logo.png",
+    image: "/images/aura_aperture_logo.png",
     github: "https://github.com/Tiberioc17/Aura-Aperture-.git",
     liveUrl: "https://aura-aperture.vercel.app/",
     featured: true
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     title: "Demo", 
     description: "Sitio web responsivo para un fotógrafo profesional con galerías, sistema de filtros y contacto. Diseño minimalista enfocado en resaltar las imágenes.",
     technologies: ["HTML", "SCSS", "JavaScript", "Webpack"],
-    image: "./public/aura_aperture_logo.png",
+    image: "/images/aura_aperture_logo.png",
     github: "https://github.com/Tiberioc17/Aura-Aperture-.git",
     liveUrl: "https://aura-aperture.vercel.app/",
     featured: true
@@ -72,7 +72,7 @@ export const projects: Project[] = [
     title: "Demo", 
     description: "Sitio web responsivo para un fotógrafo profesional con galerías, sistema de filtros y contacto. Diseño minimalista enfocado en resaltar las imágenes.",
     technologies: ["HTML", "SCSS", "JavaScript", "Webpack"],
-    image: "./public/aura_aperture_logo.png",
+    image: "/images/aura_aperture_logo.png",
     github: "https://github.com/Tiberioc17/Aura-Aperture-.git",
     liveUrl: "https://aura-aperture.vercel.app/",
     featured: true
@@ -81,7 +81,7 @@ export const projects: Project[] = [
     title: "Demo", 
     description: "Sitio web responsivo para un fotógrafo profesional con galerías, sistema de filtros y contacto. Diseño minimalista enfocado en resaltar las imágenes.",
     technologies: ["HTML", "SCSS", "JavaScript", "Webpack"],
-    image: "./public/aura_aperture_logo.png",
+    image: "/images/aura_aperture_logo.png",
     github: "https://github.com/Tiberioc17/Aura-Aperture-.git",
     liveUrl: "https://aura-aperture.vercel.app/",
     featured: true
@@ -90,7 +90,7 @@ export const projects: Project[] = [
     title: "Demo", 
     description: "Sitio web responsivo para un fotógrafo profesional con galerías, sistema de filtros y contacto. Diseño minimalista enfocado en resaltar las imágenes.",
     technologies: ["HTML", "SCSS", "JavaScript", "Webpack"],
-    image: "./public/aura_aperture_logo.png",
+    image: "/images/aura_aperture_logo.png",
     github: "https://github.com/Tiberioc17/Aura-Aperture-.git",
     liveUrl: "https://aura-aperture.vercel.app/",
     featured: true
