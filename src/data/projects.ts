@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: "The Collective",
     description: "Plataforma de comercio electrónico con carrito de compras, pagos y panel de administración. Desarrollada con React, Node.js y MongoDB.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
-    image: "/images/commerce_logo.jpeg",
+    image: "/images/commerce_logo.png",
     github: "https://github.com/Tiberioc17/Ecommerce-THE-COLLECTIVE..git",
     liveUrl: "https://ecommerce-the-collective.vercel.app",
     featured: true
