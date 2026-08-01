@@ -56,7 +56,7 @@ const Projects: React.FC = () => {
                 <img 
                   src={project.image} 
                   alt={project.title}
-                  className="w-full h-full object-cover transform transition-transform group-hover:scale-105"
+                  className="w-full h-full object-contain bg-white transform transition-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-4">
                   <div className="flex gap-4">
